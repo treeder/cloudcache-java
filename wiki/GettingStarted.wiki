@@ -1,6 +1,15 @@
 #summary Getting up and running.
 #labels Featured
 
+= Dependencies = 
+
+You'll need the following libs, all can be downloaded from: http://commons.apache.org/
+
+  * commons-lang
+  * commons-logging
+  * commons-httpclient
+  * commons-codec
+
 = Create the Cache =
 
 {{{
@@ -49,4 +58,3 @@ long val = cache.increment(key);
 {{{
 List<String> keys = cache.listKeys();
 }}}
-
